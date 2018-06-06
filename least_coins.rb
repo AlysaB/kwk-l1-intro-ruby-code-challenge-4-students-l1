@@ -18,15 +18,13 @@ coins = {}
  else
    coins["nickels"] = 0 
  end
- if amount >= 1 
-   coins["pennies"] = (amount - amount.modulo(1)) / 1 
- else
-   coins["pennies"] = 0 
+ if amount > 0  
+   coins["pennies"] = amount 
+ 
  end
  
  puts coins
- 
+ end
  least_coins(100)
 #Code your answer here!
 
-end
