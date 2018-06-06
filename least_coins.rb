@@ -24,6 +24,8 @@ coins = {}
    coins["pennies"] = 0 
  end
  
+ puts coins
+ least_coins
 #Code your answer here!
 
 end
