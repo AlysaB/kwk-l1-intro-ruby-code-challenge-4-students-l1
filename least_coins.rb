@@ -25,7 +25,8 @@ coins = {}
  end
  
  puts coins
- least_coins
+ 
+ least_coins(100)
 #Code your answer here!
 
 end
